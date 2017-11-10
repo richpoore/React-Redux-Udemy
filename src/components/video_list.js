@@ -8,12 +8,10 @@ const VideoList = (props) => {
     });
 
     return (
-
-
         <ul clsssName="col-md-4 list-group">
             {videoItems}
         </ul>
     );
-}
+};
 
 export default VideoList;
